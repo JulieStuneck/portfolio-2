@@ -136,7 +136,7 @@ main ul {
 
 button {
 	background-image: url("./images/gray3.jpg");
-    border: none;
+    border: groove;
     color: white;
    	padding: 10px 32px;
     text-align: center;
@@ -446,6 +446,7 @@ img {vertical-align: middle;}
   max-width: 200px;
   max-height: 200px;
 }
+
 
 .fade {
   -webkit-animation-name: fade;

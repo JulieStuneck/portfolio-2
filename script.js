@@ -14,6 +14,7 @@ window.onclick = function(event) {
     }
 }
 
+
 /*Project 1*/
 var modal1 = document.getElementById('proj1Modal');
 var btn1 = document.getElementById("proj1Btn");

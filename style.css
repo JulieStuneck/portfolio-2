@@ -67,7 +67,7 @@ header a {
   background-color: #aaa;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;  
-  grid-template-rows:300px 300px auto 350px auto auto;
+  grid-template-rows:300px 300px auto 370px auto auto;
   margin: 2rem auto;
   padding: 2px;
   max-width: 1000px;
@@ -270,7 +270,6 @@ h3{
 	font-size: 15px;
 }
 
-
 /*Bio Button*/
 .bioModal {
     background-color: rgb(0,0,0); 
@@ -434,7 +433,11 @@ h3{
 
 /*Slide show for Project 3*/
 
-.mySlides {display: none;}
+.mySlides {
+	display: none;
+	border-radius:95%;
+ }
+
 img {vertical-align: middle;}
 
 .slideshow-container {
@@ -447,6 +450,35 @@ img {vertical-align: middle;}
   max-height: 200px;
 }
 
+/*from above
+.content {
+  display: flex;
+  flex-direction: column;  
+}
+
+.contentImage {
+  border-radius:95%;
+  width: 200px;
+  height: 200px;
+  transition: transform 400ms ease-out;
+  box-shadow: 0.3rem 0.4rem rgba(0, 0, 0, 0.4);
+  }
+
+.contentImage:hover {
+  transform:scale(1.15);
+}
+
+*/
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
 .fade {
   -webkit-animation-name: fade;

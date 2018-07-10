@@ -201,16 +201,13 @@ h4 {
   border-radius:95%;
   width: 200px;
   height: 200px;
-  tansition: transform 400ms ease-out;
+  transition: transform 400ms ease-out;
   box-shadow: 0.3rem 0.4rem rgba(0, 0, 0, 0.4);
- }
+  }
 
 .contentImage:hover {
   transform:scale(1.15);
 }
-
-
-
 
 .contactInfo  {
 	display: flex;
@@ -441,9 +438,13 @@ h3{
 img {vertical-align: middle;}
 
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+  border-radius:95%;
+  width: 200px;
+  height: 200px;
+  transition: transform 400ms ease-out;
+  box-shadow: 0.3rem 0.4rem rgba(0, 0, 0, 0.4);
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .fade {

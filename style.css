@@ -127,6 +127,12 @@ main ul {
 	color: white;
 }
 
+.hover{
+  color: blue;
+  font-size: 200%;
+  transition: 2s;
+}
+
 
 .JSImage {
 	width: 225px;
@@ -433,71 +439,29 @@ h3{
 
 /*Slide show for Project 3*/
 
-.mySlides {
-	display: none;
-	border-radius:95%;
- }
+#slideshow { 
+    border-radius: 95%;
+  	position: relative; 
+    width: 200px; 
+    height: 200px; 
+    padding: 5px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
 
-img {vertical-align: middle;}
-
-.slideshow-container {
-  border-radius:95%;
+#slideshow img{
+  border-radius: 95%;
   width: 200px;
   height: 200px;
-  transition: transform 400ms ease-out;
-  box-shadow: 0.3rem 0.4rem rgba(0, 0, 0, 0.4);
-  max-width: 200px;
-  max-height: 200px;
+  vertical-align: middle;
+  box-shadow: 0.3rem 0.4rem rgba(0, 0, 0, 0.4); 
 }
 
-/*from above
-.content {
-  display: flex;
-  flex-direction: column;  
+#slideshow > div { 
+    position: absolute; 
+    top: 1px; 
+    left: 1px; 
+    right: 10px; 
+    bottom: 10px; 
 }
 
-.contentImage {
-  border-radius:95%;
-  width: 200px;
-  height: 200px;
-  transition: transform 400ms ease-out;
-  box-shadow: 0.3rem 0.4rem rgba(0, 0, 0, 0.4);
-  }
 
-.contentImage:hover {
-  transform:scale(1.15);
-}
-
-*/
-
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}

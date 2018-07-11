@@ -1,3 +1,21 @@
+/*Skills Hover*/
+// const items = document.querySelectorAll('li');
+
+// for(Let i=0; i < items.length; i++) {
+// 	items[i].addEventListener('mouseover', function (){
+//   	li.classList.add('hover');
+// });
+
+// }
+// 
+// items[i].addEventListener('mouseout', function (){
+//   items.classList.remove('hover');    
+// });
+
+
+
+
+
 /*Bio Button*/
 var modal = document.getElementById('myModal');
 var btn = document.getElementById("myBtn");
@@ -63,22 +81,14 @@ window.onclick = function(event) {
     }
 }
 
-var slideIndex = 0;
-showSlides();
 
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);

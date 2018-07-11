@@ -127,9 +127,9 @@ main ul {
 	color: white;
 }
 
-.hover{
+.hover {
   color: blue;
-  font-size: 200%;
+  font-size: 150%;
   transition: 2s;
 }
 

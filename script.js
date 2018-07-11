@@ -1,19 +1,14 @@
 /*Skills Hover*/
-// const items = document.querySelectorAll('li');
+ const items = document.querySelectorAll('li');
 
-// for(Let i=0; i < items.length; i++) {
-// 	items[i].addEventListener('mouseover', function (){
-//   	li.classList.add('hover');
-// });
-
-// }
-// 
-// items[i].addEventListener('mouseout', function (){
-//   items.classList.remove('hover');    
-// });
-
-
-
+for(let i=0; i<items.length; i++){
+	items[i].addEventListener('mouseover', function(){
+		this.style.fontSize = "125%"; 
+}); 
+items[i].addEventListener('mouseout', function(){
+		this.style.fontSize = "100%"; 
+}); 
+}
 
 
 /*Bio Button*/

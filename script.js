@@ -3,7 +3,7 @@
 
 for(let i=0; i<items.length; i++){
 	items[i].addEventListener('mouseover', function(){
-		this.style.fontSize = "125%"; 
+		this.style.fontSize = "150%"; 
 }); 
 items[i].addEventListener('mouseout', function(){
 		this.style.fontSize = "100%"; 

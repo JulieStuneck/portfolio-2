@@ -47,12 +47,40 @@ h1 {
 
 h2 {
 	display: flex;
+	font-size: 1.75em;
+	font-family: 'Poiret One', sans-serif;
+	color: white;
+	justify-content: center;
+}
+
+ p {
+	display: flex;
 	font-size: 2em;
 	font-family: 'Poiret One', sans-serif;
 	color: white;	
 	justify-content: center;
 }
 
+.about {
+	background-image: url("./images/gray.jpg");
+	padding: 2rem;
+}
+
+.about p {
+	color: #42597c;
+	font-family: sans-serif;
+	font-size: 1.25em;
+}
+
+footer {
+	grid-column: 1/-1;	
+	background: #42597c;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
+}
   
 
 .nav {
@@ -63,6 +91,7 @@ h2 {
 .nav ul {
 	display: flex;	
 	color: white;
+	font-family: sans-serif;
 	font-size: 1em;
 	justify-content: space-around;
 	list-style-type: none;
@@ -95,9 +124,6 @@ h2 {
 	background-size: cover;
 }
 
-.page-banner ul {
-
-}
 
 .projects-banner, .contactInfo-banner {
 	grid-column: 1/-1;	
@@ -107,25 +133,22 @@ h2 {
 	height: auto;
 }
 
-.about {
-	background-image: url("./images/gray.jpg");
+.skillsList {
+	font-size: 1.15em;
 }
 
-.skills{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	width: 100%;
-
+/*.skills{	
+	color: white;
 	font-size: 20px;
 	font-family: 'Poiret One', sans-serif;
-	color: white;
-
+	grid-column: 1;
+	grid-row:2/-2;
+	width: 15px;
 }
 
 .skills li {
 	list-style-type: none;
-}
+}*/
 
 
 .JSImage {

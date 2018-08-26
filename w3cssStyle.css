@@ -1,0 +1,71 @@
+*{
+	Line-height: 1.618em;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+}
+
+/*Banner/Header Section*/
+
+.banner {
+	background-image: url('./images/bannerBack3.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:auto;
+	padding: 2.5rem;
+}
+
+.banner h1 {
+	font-size: 4.50em;
+	font-family: 'Poiret One', sans-serif;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+
+.banner p {
+	font-size: 2.5em;
+	font-family: 'Poiret One', sans-serif;
+	color: white;
+}
+
+.skills {
+	display: flex;
+	color: white;
+	flex-direction: row;	
+	font-family: 'Poiret One', sans-serif;
+	font-size: 1.5em;
+	justify-content: center;	
+	list-style-type: none;
+}
+
+/*About Section*/
+.about {
+	display: flex;
+	flex-direction: row;
+	background-image: url('./images/gray5.jpg');
+	background-position: center;
+	padding: 2.5rem 8rem;
+	height: auto;
+}
+
+.about p {
+	font-size: 1.15em;
+	justify-content: center;	
+}
+
+.w3-circle {
+	height:18%;
+	width:18%
+	
+}
+
+.JSPhoto {
+	
+	
+	border-radius: 50%;	
+	box-shadow: 2px 3px 2px 1px #666;
+
+}

@@ -82,7 +82,7 @@ header a {
 	align-items: center;
 	justify-content: center;
 
-	background-image: url("images/gray.jpg");
+	background-image: url("./images/gray.jpg");
    background-color: #cccccc;
    background-repeat: no-repeat;
    background-size: cover;
@@ -131,7 +131,7 @@ main ul {
 
 .JSImage {
 	width: 225px;
-	border-radius: 50%;	
+	
 	box-shadow: 5px 6px 5px 1px #bbb;
 }
 
@@ -216,6 +216,7 @@ h4 {
 	flex-direction: row;
 	justify-content: space-around;
 	font-family: sans-serif;
+  background-image: url("./images/gray.jpg");
 }
 
 

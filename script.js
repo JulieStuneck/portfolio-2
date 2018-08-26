@@ -2,11 +2,11 @@
  const items = document.querySelectorAll('li');
 
 for(let i=0; i<items.length; i++){
-	items[i].addEventListener('mouseover', function(){
-		this.style.fontSize = "110%"; 
+    items[i].addEventListener('mouseover', function(){
+        this.style.fontSize = "125%"; 
 }); 
 items[i].addEventListener('mouseout', function(){
-		this.style.fontSize = "100%"; 
+        this.style.fontSize = "100%"; 
 }); 
 }
 
@@ -77,13 +77,35 @@ window.onclick = function(event) {
 }
 
 
-$("#slideshow > div:gt(0)").hide();
+$("#slideshow1 > div:gt(0)").hide();
 
 setInterval(function() { 
-  $('#slideshow > div:first')
+  $('#slideshow1 > div:first')
     .fadeOut(1000)
     .next()
     .fadeIn(1000)
     .end()
-    .appendTo('#slideshow');
+    .appendTo('#slideshow1');
+},  3000);
+
+$("#slideshow2 > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow2 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow2');
+},  3000);
+
+$("#slideshow3 > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow3 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow3');
 },  3000);

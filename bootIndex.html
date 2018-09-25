@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Bootstrap Portfolio</title>
+    <title>Julie Stuneck Portfoli0</title>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="bootStyle.css">
@@ -17,38 +17,27 @@
 <body>
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">Julie Stuneck</a>
+	  <a class="navbar-brand" href="#"></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item active">
+	     <!--  <li class="nav-item active">
 	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li> -->
+	      <li class="nav-item">
+	        <a class="nav-link" href="#about">About</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Link</a>
-	      </li>
-	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Dropdown
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          <a class="dropdown-item" href="#">Action</a>
-	          <a class="dropdown-item" href="#">Another action</a>
-	          <div class="dropdown-divider"></div>
-	          <a class="dropdown-item" href="#">Something else here</a>
-	        </div>
+	        <a class="nav-link" href="#projects">Projects</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link disabled" href="#">Disabled</a>
+	        <a class="nav-link" href="#getInTouch">Get In Touch</a>
 	      </li>
 	    </ul>
-	    <form class="form-inline my-2 my-lg-0">
-	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-	    </form>
+	    
 	  </div>
 	</nav>
 
@@ -82,10 +71,42 @@
 	</div>
 
 	<!-- About & pic -->
-	<section class="grid-item about row">
+	<section class="grid-item about row" id="about">
 		<article class="about-text col-lg-8 col-md-12 col-sm-12">
 			Front-end or back-end, I love the art in code. I appreciate the beauty of logically laid out html and the elegance of a concise conditional statement. My experiences as a performer, music director and educator have honed my problem-solving skills as well as my ability to work with many different people as a team.
 		</article>
+
+		<!-- Bio Modal -->
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+		  More
+		</button>
+
+		<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">Background</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <p>Most recently I served as the Director of Music Ministries at the United Methodist Church in Stow and  Adjunct Instructor of Bassoon at the College of Wooster. I also teach bassoon privately, substitute in the Stow schools and am the Principal Bassoonist in the Lakeside Symphony Orchestra. </p>
+
+				<p>I have touched upon programming at several points my career, the very first time being in course work for a MA in Music Education. I used ASCII to manipulate sound envelopes and then use them in an arrangement of a short piece of music. My interest in coding was further piqued in more recent classes I took to renew my teaching licensure. I love the challenges and creative potential in coding.</p>
+
+				<p>I have a wonderful husband, two great kids and a spastic dog.
+				</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
 		<article>
 			<img class="JSImage" src="./images/JS.jpg" alt="Photo of Stuneck">
 		</article>

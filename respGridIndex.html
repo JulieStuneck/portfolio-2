@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Julie Stuneck</title>
+	<link rel="stylesheet" type="text/css" href="./respGridStyle.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Poiret+One">
+</head>
+
+
+<body>
+
+	<section class="grid-item nav">
+		<ul>
+			<li><a href="#navAbout">About</a></li>
+			<li><a href="#navProjects">Projects</a></li>
+			<li><a href="#navGetInTouch">GetInTouch</a></li>
+		</ul>
+	</section>
+
+	<section class="grid-item page-banner">
+		<h1>Julie Stuneck</h1>
+		<p>Software Developer</p>
+		<p class="skillsList">Java/Spring/TDD/HTML5/CSS3/CSS Grid/Flexbox/JavaScript/JQuery/SQL/OOP/Git/Agile</p>
+	</section>
+
+	<!-- <section class="skills">
+		<ul>
+			<li>Java/</li>
+			<li>Spring/</li>
+			<li>TDD/</li>
+			<li>HTML5/</li>
+			<li>CSS3/</li>
+			<li>CSS Grid/</li>
+			<li>Flexbox/</li>
+			<li>JavaScript/</li>
+			<li>JQuery/</li>
+			<li>SQL/</li>					
+			<li>OOP/</li>
+			<li>Git/</li>
+			<li>Agile</li>			
+		</ul>
+	</section> -->
+
+	<section class="grid-item about" id="navAbout">
+		<article>
+			<p>Front-end or back-end, I love the art in code. I appreciate the beauty of logically laid out html and the elegance of a concise conditional statement. <br> My experiences as a performer, music director and educator have honed my problem-solving skills as well as my ability to work with many different people as a team.</p>
+		</article>
+
+		<article>			
+			<img class="JSImage" src="./images/JS.jpg" alt="Photo of Stuneck">
+		</article>
+	</section>
+
+	<section class="grid-item projects-banner" id="navProjects">
+		<h2>Recent Projects</h2>
+	</section>
+
+
+			<arictle class="grid-item project1">
+				<a href=https://github.com/food-rescue/food-rescue-app>
+					<div id="slideshow1">
+						<div class="mySlides fade"> 
+  							<img src="./images/foodRescue.JPG"> 
+						</div>
+						<div class="mySlides fade"> 
+  							<img src="./images/foodRescue2.JPG">  
+						</div>					
+					</div>
+				</a>
+
+				<h3>Food Rescue</h3>
+			
+				<button id="proj1Btn">Learn More</button>
+				<div id="proj1Modal" class="modal1">
+					<div class="modal1-content">
+						<p>Waste not, want not. Save money and reduce food waste by using this app. Enter the food you have on hand and Food Rescue will find a recipe for you to use it in. You can also create a shopping list and find tips for storing food.</p>
+						<h4 id="modalSkills">Skills Used: Java/TDD/HTML/CSS/CSS Grid/Flexbox/JavaScript/Spring/MVC/SQL/JQuery/Ajax/Agile</h4>
+						<a href="https://github.com/food-rescue/food-rescue-app">See the Code</a>
+						<span class="close1">&times;</span>	
+					</div>
+				</div>				
+			</article>
+
+			<article class="grid-item project2">
+				<a href="https://github.com/JulieStuneck/beverage-reviews">		
+					<div id="slideshow2">
+						<div class="mySlides fade"> 
+  							<img src="./images/bevReviews2.JPG">
+						</div>
+						<div class="mySlides fade"> 
+  							<img src="./images/bevReviews.JPG">  
+						</div>					
+					</div>
+				</a>
+
+				<h3>Beverage Reviews</h3>
+
+				<button id="proj2Btn">Learn More</button>
+				<div id="proj2Modal" class="modal2">
+					<div class="modal2-content">
+						<p>With this app you can read short reviews of a variety of beverages, as well as write or delete comments and tags.</p>
+						<h4 id="modalSkills">Skills Used: Java/TDD/HTML/CSS/CSS Grid/Flexbox/JavaScript/Spring/MVC/SQL/JQuery/Ajax</h4>
+						<a href=https://github.com/JulieStuneck/beverage-reviews>See the Code</a>
+						<span class="close2">&times;</span>	
+					</div>
+				</div>
+			</article>
+
+			<article class="grid-item project3">
+				<a href="https://github.com/JulieStuneck/courses-topics-textbooks">
+					<div id="slideshow3">
+						<div class="mySlides fade"> 
+  							<img src="./images/book.jpg">  
+						</div>						
+						<div class="mySlides fade"> 
+							<img src="./images/Courses.JPG"> 
+  						</div>
+  					</div>
+				</a>
+
+				<h3>Courses/Topics/Textbooks</h3>
+					
+				<button id="proj3Btn">Learn More</button>
+				<div id="proj3Modal" class="modal3">
+					<div class="modal3-content">
+						<p>It's back to school time! Check out the courses at our school or create your own. Search for courses by topic. Add or delete courses and thier related topics and textbooks.</p>
+						<h4 id="modalSkills">Skills Used: Java/TDD/HTML/CSS/CSS Grid/Flexbox/JavaScript/Spring/MVC/SQL/JQuery/Ajax</h4>	
+						<a href="https://github.com/JulieStuneck/courses-topics-textbooks">See the Code</a>
+						<span class="close3">&times;</span>	
+					</div>
+				</div>					
+			</article>
+
+
+	<section class="grid-item contactInfo-banner" id="navGetInTouch">
+		<h2>Get In Touch</h2>
+	</section>
+
+	<section class="grid-item contactInfo">
+		phone
+		email
+		gitHub
+		LinkedIn
+	</section>
+
+	<footer class="grid-item">
+		<p>&copy2018 Julie Stuneck</p>
+	</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./respGridScript.js"></script>
+</body>
+</html>

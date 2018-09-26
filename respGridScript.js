@@ -2,11 +2,11 @@
  const items = document.querySelectorAll('li');
 
 for(let i=0; i<items.length; i++){
-    items[i].addEventListener('mouseover', function(){
-        this.style.fontSize = "125%"; 
+	items[i].addEventListener('mouseover', function(){
+		this.style.fontSize = "110%"; 
 }); 
 items[i].addEventListener('mouseout', function(){
-        this.style.fontSize = "100%"; 
+		this.style.fontSize = "100%"; 
 }); 
 }
 
@@ -77,15 +77,15 @@ window.onclick = function(event) {
 }
 
 
-$("#slideshow1 > div:gt(0)").hide();
+$("#slideshow > div:gt(0)").hide();
 
 setInterval(function() { 
-  $('#slideshow1 > div:first')
+  $('#slideshow > div:first')
     .fadeOut(1000)
     .next()
     .fadeIn(1000)
     .end()
-    .appendTo('#slideshow1');
+    .appendTo('#slideshow');
 },  3000);
 
 $("#slideshow2 > div:gt(0)").hide();

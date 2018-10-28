@@ -1,5 +1,5 @@
 /*parallax*/
-$(document).ready(function(){
+/*$(document).ready(function(){
     let $sticky = $('.sticky');
     let stickyOffsetTop = $sticky.offset().top;
     
@@ -15,4 +15,4 @@ $(document).ready(function(){
         }
     });
 });
-
+*/

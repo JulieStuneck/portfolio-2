@@ -63,22 +63,22 @@ h2 {
 
 .about-text {
 	color: #004d99;
-  	font-size: 1.25rem;
-  	padding: 1rem;
+  font-size: 1.25rem;
+  padding: 1rem;
 }
 
 .btn-primary, .modal-content button {
 	background-color: #0066cc;
 	color: white;
-    padding: .5rem .75rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    margin: 4px 2px;
-    cursor: pointer;
-  	border-radius: 75%;
-  	border-color: #0059b3;
+  padding: .5rem .75rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 75%;
+	border-color: #0059b3;
 }
 
 .modal-header, .modal-footer {
@@ -111,8 +111,7 @@ h2 {
 }
 
 .projects {
-	display: flex;
-	justify-content: space-around;
+
 	margin: 1rem;
 }
 
@@ -167,17 +166,6 @@ h2 {
 
 .footer p {
 	text-align: center;
-}
-
-/*parallax*/
-.sticky.is-fixed{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 15;
-    margin-top: 0;
-    width: 100%;
-    opacity: 0.8;
 }
 
 
